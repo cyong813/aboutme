@@ -76,10 +76,13 @@ $head-font: 'Playfair Display';
 }
 
 /* Section Styling */
+
 #section {
     padding-bottom: 50px;
     margin-bottom: 50px;
     font-family: $main-font;
+    margin-left: auto;
+    margin-right: auto;
 
     #title {
         text-transform: uppercase;
@@ -101,7 +104,31 @@ $head-font: 'Playfair Display';
 
 
 /* Avatar */
+
 #avatar img {
     border: 0;
     border-radius: 50%;
+}
+
+/* Experience Styling */
+
+#experience {
+    #date {
+        letter-spacing: 0.1em;
+        font-weight: bold;
+    }
+    #position {
+        font-size: 1.25em;
+    }
+    #description {
+        ul {
+            list-style-type: circle;
+            list-style-position: inside;
+            padding: 10px 0 10px 0;
+        }
+
+        li {
+            padding: 3px;
+        }
+    }
 }
