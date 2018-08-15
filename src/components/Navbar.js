@@ -1,25 +1,32 @@
 import React, { Component } from 'react'
 import Scrollspy from 'react-scrollspy'
+import { genericHashLink } from 'react-router-hash-link'
+import Link from 'gatsby-link'
 
 class Navbar extends Component {
+    constructor(props) {
+        super(props)
+    }
+
     render() {
+        const HashLink = (props) => genericHashLink(props, Link)
         return (
             <nav id='nav'>
                 <Scrollspy items={['intro', 'experience', 'skills', 'projects', 'contact']}>
                     <li>
-                        <a href='#intro'>Introduction</a>
+                        <HashLink to='#intro'>Introduction</HashLink>
                     </li>
                     <li>
-                        <a href='#experience'>Experience</a>
+                        <HashLink to='#experience'>Experience</HashLink>
                     </li>
                     <li>
-                        <a href='#skills'>Skills</a>
+                        <HashLink to='#skills'>Skills</HashLink>
                     </li>
                     <li>
-                        <a href='#projects'>Projects</a>
+                        <HashLink to='#projects'>Projects</HashLink>
                     </li>
                     <li>
-                        <a href='#contact'>Contact</a>
+                        <HashLink to='#contact'>Contact</HashLink>
                     </li>
                 </Scrollspy>
             </nav>

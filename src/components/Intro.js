@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
-import ScrollableAnchor from 'react-scrollable-anchor'
+import ScrollableAnchor, {configureAnchors} from 'react-scrollable-anchor'
 import Avatar from '../assets/images/avatar.png'
 
 class Intro extends Component {
     constructor(props) {
         super(props)
+    }
+
+    componentWillMount() {
+        configureAnchors({keepLastAnchorHash: false})
     }
 
     render() {
