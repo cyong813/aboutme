@@ -6,10 +6,12 @@ const Skills = (props) => {
         <ScrollableAnchor id={'skills'}>
         <div className='container' id='skillset'>
             <div className="row">
-                <section id='section'>
-                    <h1 id='title'>Skills</h1>
-                    
-                </section>
+                <div className="col-sm-6 col-md-8">
+                    <section id='section'>
+                        <h1 id='title'>Skills</h1>
+                        
+                    </section>
+                </div>
             </div>
         </div>
         </ScrollableAnchor>

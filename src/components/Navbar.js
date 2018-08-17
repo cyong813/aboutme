@@ -10,7 +10,7 @@ class Navbar extends Component {
     render() {
         return (
             <nav id='nav'>
-                <Scrollspy items={['intro', 'experience', 'skills', 'projects', 'contact']} currentClassName="is-active" offset={-300}>
+                <Scrollspy items={['intro', 'experience', 'skills', 'projects', 'contact']} currentClassName="is-active" offset={-100}>
                     <li>
                         <Scroll type="id" element="intro">
                             <a href='#'>Introduction</a>

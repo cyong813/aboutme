@@ -26,7 +26,7 @@ class Experience extends Component {
                             {this.props.location}
                         </div>
                     </div>
-                    <div className="col-sm-4 col-md-6">
+                    <div className="col-sm-8 col-md-8">
                         <div id="position">
                             {this.props.position}
                         </div>

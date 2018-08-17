@@ -16,7 +16,7 @@ class Intro extends Component {
             <ScrollableAnchor id={'intro'}>
             <div className='container'>
                 <div className="row" id='avatar'>
-                    <div className="col-sm-8 col-lg-7">
+                    <div className="col-sm-6 col-md-8">
                         <section id='section'>
                             <h1 id='title'>Introduction</h1>
                             <p>Born and raised in Brooklyn, New York. I found my passion for computer science after realizing how much I loved
