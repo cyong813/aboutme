@@ -3,7 +3,12 @@ import Scrollspy from 'react-scrollspy'
 import Scroll from './Scroll'
 
 class Navbar extends Component {
+    constructor(props) {
+        super(props)
+    }
+
     render() {
+        const HashLink = (props) => genericHashLink(props, Link)
         return (
             <nav id='nav'>
                 <Scrollspy items={['intro', 'experience', 'skills', 'projects', 'contact']} currentClassName="is-active" offset={-300}>

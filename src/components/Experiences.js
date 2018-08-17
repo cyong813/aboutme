@@ -1,10 +1,14 @@
 import React, { Component } from 'react'
-import ScrollableAnchor from 'react-scrollable-anchor'
+import ScrollableAnchor, {configureAnchors} from 'react-scrollable-anchor'
 import Experience from '../components/Experience'
 
 class Experiences extends Component {
     constructor(props) {
         super(props)
+    }
+
+    componentWillMount() {
+        configureAnchors({scrollDuration: 100, keepLastAnchorHash: false})
     }
 
     render() {

@@ -4,7 +4,6 @@ import ParallaxImg from '../assets/images/parallax2.jpg'
 import { Parallax, Background } from 'react-parallax';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
-import ScrollableAnchor from 'react-scrollable-anchor'
 
 class Header extends Component {
   constructor(props) {
