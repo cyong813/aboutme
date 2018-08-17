@@ -18,7 +18,8 @@
     "react-parallax": "^1.8.0",
     "react-scrollable-anchor": "^0.6.1",
     "react-scrollspy": "^3.3.5",
-    "react-spring": "^5.5.4"
+    "react-spring": "^5.5.4",
+    "smoothscroll-polyfill": "^0.4.3"
   },
   "keywords": [
     "gatsby"
