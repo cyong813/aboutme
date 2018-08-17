@@ -8,7 +8,6 @@ class Navbar extends Component {
     }
 
     render() {
-        const HashLink = (props) => genericHashLink(props, Link)
         return (
             <nav id='nav'>
                 <Scrollspy items={['intro', 'experience', 'skills', 'projects', 'contact']} currentClassName="is-active" offset={-300}>
