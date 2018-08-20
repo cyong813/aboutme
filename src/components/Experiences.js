@@ -7,10 +7,6 @@ class Experiences extends Component {
         super(props)
     }
 
-    componentWillMount() {
-        configureAnchors({scrollDuration: 100, keepLastAnchorHash: false})
-    }
-
     render() {
         return (
             <ScrollableAnchor id={'experience'}>

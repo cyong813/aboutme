@@ -7,10 +7,6 @@ class Intro extends Component {
         super(props)
     }
 
-    componentWillMount() {
-        configureAnchors({keepLastAnchorHash: false})
-    }
-
     render() {
         return (
             <ScrollableAnchor id={'intro'}>
