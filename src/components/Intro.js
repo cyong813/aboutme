@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ScrollableAnchor, {configureAnchors} from 'react-scrollable-anchor'
 import Avatar from '../assets/images/avatar.png'
 
 class Intro extends Component {
@@ -9,8 +8,7 @@ class Intro extends Component {
 
     render() {
         return (
-            <ScrollableAnchor id={'intro'}>
-            <div className='container'>
+            <div className='container' id='intro'>
                 <div className="row" id='avatar'>
                     <div className="col-sm-6 col-md-8">
                         <section id='section'>
@@ -31,7 +29,6 @@ class Intro extends Component {
                     </div>
                 </div>
             </div>
-            </ScrollableAnchor>
         )
     }
 }

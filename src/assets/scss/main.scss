@@ -101,6 +101,19 @@ $orange: #c92f00;
             padding-top: 4px;
         }
     }
+
+    #subtitle {
+        text-transform: uppercase;
+        font-size: 1.5em;
+        font-weight: 200;
+        letter-spacing: .025em;
+        padding: 20px 0 20px 0;
+        color: #E61B44;
+    }
+
+    #list {
+        list-style-type: circle;
+    }
 }
 
 
@@ -179,7 +192,7 @@ $orange: #c92f00;
 
 .progressBar { 
     font-size: 1.2em;
-    height: 20px;
+    height: 25px;
     background: rgba(255,255,255,0.05);
     border-radius: 2px;
     border: 1px solid rgba(255,255,255,0.2);
@@ -203,7 +216,6 @@ $orange: #c92f00;
         font-size: 12px;
         font-weight: normal;
         text-shadow: 0 1px 1px rgba(0,0,0,0.6);
-        line-height: 15px;
         
         display: block;
         position: relative;
@@ -285,7 +297,6 @@ $orange: #c92f00;
         font-size: 12px;
         font-weight: normal;
         text-shadow: 0 1px 1px rgba(0,0,0,0.6);
-        line-height: 15px;
         
         display: block;
         position: relative;
@@ -367,7 +378,6 @@ $orange: #c92f00;
         font-size: 12px;
         font-weight: normal;
         text-shadow: 0 1px 1px rgba(0,0,0,0.6);
-        line-height: 15px;
         
         display: block;
         position: relative;
@@ -445,5 +455,7 @@ $orange: #c92f00;
     }
 }
 
-
+#progressContainer {
+    margin-left: 20px;
+}
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react'
-import ScrollableAnchor, {configureAnchors} from 'react-scrollable-anchor'
 import Experience from '../components/Experience'
 
 class Experiences extends Component {
@@ -9,7 +8,6 @@ class Experiences extends Component {
 
     render() {
         return (
-            <ScrollableAnchor id={'experience'}>
             <div className='container' id='experiences'>
                 <div className="row">
                 <div className="col-sm-6 col-md-8">
@@ -46,7 +44,6 @@ class Experiences extends Component {
                     </div>
                 </div>
             </div>
-            </ScrollableAnchor>
         )
     }
 }

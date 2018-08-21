@@ -32,8 +32,8 @@ class Navbar extends Component {
                         </Scroll>
                     </li>
                     <li>
-                        <Scroll>
-                            <a href='#contact'>Contact</a>
+                        <Scroll type="id" element="contact">
+                            <a href='#'>Contact</a>
                         </Scroll>
                     </li>
                 </Scrollspy>
