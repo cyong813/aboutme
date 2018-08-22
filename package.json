@@ -20,6 +20,9 @@
     "react-scrollable-anchor": "^0.6.1",
     "react-scrollspy": "^3.3.5",
     "react-spring": "^5.5.4",
+    "react-sticky": "^6.0.3",
+    "react-stickydiv": "^3.4.20",
+    "react-waypoint": "^8.0.3",
     "smoothscroll-polyfill": "^0.4.3"
   },
   "keywords": [

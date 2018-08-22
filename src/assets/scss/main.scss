@@ -52,6 +52,11 @@ $orange: #c92f00;
 
 /* Navbar */
 
+.navbar-div {
+    z-index: 1;
+    position: relative;
+}
+
 #nav {
     position: relative;
     text-align: center;

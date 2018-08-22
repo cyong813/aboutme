@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/Header'
-import Navbar from '../components/Navbar'
+import MainNavbar from '../components/Navbar'
 import Intro from '../components/Intro'
 import Experiences from '../components/Experiences'
 import Skills from '../components/Skills'
@@ -12,11 +12,12 @@ class IndexPage extends Component {
     super(props)
   }
 
+
   render() {
     return (
       <div>
         <Header />
-        <Navbar />
+        <MainNavbar/>
         <Intro />
         <Experiences />
         <Skills />
