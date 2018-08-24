@@ -13,7 +13,7 @@ class Experience extends Component {
         })
 
         return (
-            <div className='container' id='experience'>
+            <div className='container' id='exp'>
                 <div className="row">
                     <div className="col-sm-6 col-md-4">
                         <div id="date">

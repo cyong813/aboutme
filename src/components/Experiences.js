@@ -8,9 +8,10 @@ class Experiences extends Component {
 
     render() {
         return (
-            <div className='container' id='experiences'>
+            <div className='container' id='experience'>
                 <div className="row">
-                <div className="col-sm-6 col-md-8">
+                <div className="col-sm-1 col-md-1"></div>
+                <div className="col-sm-4 col-md-10">
                     <section id='section'>
                         <h1 id='title'>Experience</h1>
                             <Experience 

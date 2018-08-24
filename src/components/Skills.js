@@ -5,7 +5,8 @@ const Skills = (props) => {
     return (
         <div className='container' id='skills'>
             <div className="row">
-                <div className="col-sm-6 col-md-8">
+                <div className="col-sm-1 col-md-1"></div>
+                <div className="col-sm-4 col-md-10">
                     <section id='section'>
                         <h1 id='title'>Skills</h1>
                         <h2 id='subtitle'>Programming Languages</h2>
@@ -43,8 +44,6 @@ const Skills = (props) => {
                     </section>
                 </div>
             </div>
-
-
         </div>
     )
 }

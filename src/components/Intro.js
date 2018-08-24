@@ -10,7 +10,8 @@ class Intro extends Component {
         return (
             <div className='container' id='intro'>
                 <div className="row" id='avatar'>
-                    <div className="col-sm-6 col-md-8">
+                    <div className="col-sm-1 col-md-1"></div>
+                    <div className="col-sm-4 col-md-7">
                         <section id='section'>
                             <h1 id='title'>Introduction</h1>
                             <p>Born and raised in Brooklyn, New York. I found my passion for computer science after realizing how much I loved
@@ -20,7 +21,7 @@ class Intro extends Component {
                             </p>
                         </section>
                     </div>
-                    <div className="col-md-4 push-md-8 col-sm-12">
+                    <div className="col-md-3 push-md-3 col-sm-2">
                         <img
                             src={Avatar}
                             className="pull-right img-fluid"
