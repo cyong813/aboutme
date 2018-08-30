@@ -465,18 +465,18 @@ $orange: #c92f00;
     margin-left: 20px;
 }
 
-.icons {
-    display: inline-block;
-	margin: -4px;		/* solves inline-block whitespace issue */
-    list-style: none;
-
-    li {
-        display: inline-block;
+#contact {
+    .icons {
+        text-align: center;
 
         a {
-            position: relative;
-	        padding: 5px;
+            padding: 5px;
         }
     }
-    
+
+    p {
+        color: rgb(114, 114, 114);
+        text-align: center;
+        font-size: 75%;
+    }
 }
