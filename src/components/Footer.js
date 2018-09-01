@@ -12,9 +12,9 @@ class Footer extends Component {
         return (
             <footer id='contact'>
                 <div className="icons">
-                    <a href="mailto:cy986@nyu.edu"><FontAwesomeIcon icon={faEnvelope} size="3x" color="#F9B320"/></a>
-                    <a href="https://www.linkedin.com/in/corinnay813"><FontAwesomeIcon icon={faLinkedin} size="3x" color="#0177B5"/></a>
-                    <a href="https://github.com/cyong813"><FontAwesomeIcon icon={faGithub} size="3x" color="black"/></a>
+                    <a href="mailto:cy986@nyu.edu" id="mail"><FontAwesomeIcon icon={faEnvelope} size="2x"/></a>
+                    <a href="https://www.linkedin.com/in/corinnay813" id="linkedin"><FontAwesomeIcon icon={faLinkedin} size="2x"/></a>
+                    <a href="https://github.com/cyong813" id="github"><FontAwesomeIcon icon={faGithub} size="2x"/></a>
                 </div>
                 <p><i>Thanks for stopping by!</i></p>
             </footer>

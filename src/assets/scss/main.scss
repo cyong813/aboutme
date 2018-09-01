@@ -468,9 +468,30 @@ $orange: #c92f00;
 #contact {
     .icons {
         text-align: center;
+        color: #555;
+        overflow: hidden;
 
         a {
-            padding: 5px;
+            margin: .3em;
+            color: #555;
+            transition: color 300ms ease, margin-top 300ms ease;
+            transform: translateZ(0);
+            
+            &:hover {
+                margin-top: -1px;
+            }
+
+            &#github:hover {
+                color: black;
+              }
+          
+            &#linkedin:hover {
+                color: #0177B5;
+            }
+
+            &#mail:hover {
+                color: #F9B320;
+            }
         }
     }
 
