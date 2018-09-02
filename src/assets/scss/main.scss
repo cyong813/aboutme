@@ -465,9 +465,22 @@ $orange: #c92f00;
     margin-left: 20px;
 }
 
+/* Footer Styling */
+
+@keyframes rotate-vertical {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
 #contact {
     .icons {
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         color: #555;
         overflow: hidden;
 
@@ -483,14 +496,17 @@ $orange: #c92f00;
 
             &#github:hover {
                 color: black;
+                animation: rotate-vertical 1s ease-out;
               }
           
             &#linkedin:hover {
                 color: #0177B5;
+                animation: rotate-vertical 1s ease-out;
             }
 
             &#mail:hover {
                 color: #F9B320;
+                animation: rotate-vertical 1s ease-out;
             }
         }
     }

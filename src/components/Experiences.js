@@ -10,7 +10,7 @@ class Experiences extends Component {
         return (
             <div className='container' id='experience'>
                 <div className="row">
-                <div className="col-sm-1 col-md-1"></div>
+                <div className="col-sm-1 col-md-2"></div>
                 <div className="col-sm-4 col-md-10">
                     <section id='section'>
                         <h1 id='title'>Experience</h1>
