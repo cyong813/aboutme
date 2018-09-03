@@ -14,8 +14,13 @@ class Header extends Component {
     return (
       <Parallax
         strength={100}
-        style={{background: '#9ebcd5'}}>
-          <div style={{ height: '750px'}}> 
+        style={{
+          backgroundImage: '-webkit-gradient(linear, left top, left bottom, from(#9c9bbf), color-stop(60%, #9ebcd5))',
+          backgroundImage: '-webkit-linear-gradient(top, #9c9bbf 0%, #9ebcd5 60%)',
+          backgroundImage: '-o-linear-gradient(top, #9c9bbf 0%, #9ebcd5 60%)',
+          backgroundImage: 'linear-gradient(to bottom, #9c9bbf 0%, #9ebcd5 60%)'}}
+        >
+          <div style={{ height: '650px'}}> 
             <div id='header'>
               <h1>Corinna</h1>
               <p>Computer Science & Cybersecurity</p>

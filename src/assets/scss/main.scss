@@ -5,9 +5,14 @@
 /* Variables */
 $main-font: 'Didact Gothic';
 $head-font: 'Playfair Display';
-$red: #c90414;
-$yellow: #e89e00;
-$orange: #c92f00;
+$red: #519399;
+$yellow: #1c565c;
+$orange: #30777e;
+$background: #9ebcd5;
+
+body {
+    background-color: $background !important;
+}
 
 /* Header */
 #header {
@@ -16,17 +21,12 @@ $orange: #c92f00;
     text-align: center;
     font-family: $head-font;
     font-size: 2em;
-    color: white;
+    color: #daebea;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     letter-spacing: 3px;
     text-shadow: #feffc2 0 0 5px;
-    background: #9ebcd5;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#9c9bbf), color-stop(60%, #9ebcd5));
-    background-image: -webkit-linear-gradient(top, #9c9bbf 0%, #9ebcd5 60%);
-    background-image: -o-linear-gradient(top, #9c9bbf 0%, #9ebcd5 60%);
-    background-image: linear-gradient(to bottom, #9c9bbf 0%, #9ebcd5 60%);
 
     #down-icon {
         display: block;
@@ -63,6 +63,7 @@ $orange: #c92f00;
     font-family: $main-font;
     font-size: 1.25em;
     letter-spacing: 1px;
+    color: #daebea;
 
     ul {
         margin: 0 auto;
@@ -72,7 +73,7 @@ $orange: #c92f00;
             
             a {
                 display: inline-block;
-                color: black;
+                color: #daebea;
                 text-decoration: none;
             }
 
@@ -82,7 +83,7 @@ $orange: #c92f00;
             }
 
             a:hover {
-                color: white;
+                text-shadow: #feffc2 0 0 5px;
             }
         }
     }
@@ -94,6 +95,8 @@ $orange: #c92f00;
     padding: 0px 0 50px 0;
     margin: 0px 50px 50px 0;
     font-family: $main-font;
+    color: #daebea;
+    text-shadow: #9fd0d4 3px 0 0;
 
     #title {
         text-transform: uppercase;
@@ -102,12 +105,13 @@ $orange: #c92f00;
         display: inline-block;
         letter-spacing: .05em;
         padding-bottom: 20px;
-        color: #E61B44;
+        color: #daebea;
+        text-shadow: #b7d7e8 0 0 5px;
 
         &:after {
             content: "";
             display: block;
-            border-bottom: 1.5px solid #F9B320;
+            border-bottom: 1.5px solid #9fd0d4;
             padding-top: 4px;
         }
     }
@@ -118,7 +122,7 @@ $orange: #c92f00;
         font-weight: 200;
         letter-spacing: .025em;
         padding: 20px 0 20px 0;
-        color: #E61B44;
+        color: #daebea;
     }
 
     #list {
@@ -137,6 +141,8 @@ $orange: #c92f00;
 /* Experience Styling */
 
 #exp {
+    color: #daebea;
+
     #date {
         letter-spacing: 0.1em;
         font-weight: bold;
