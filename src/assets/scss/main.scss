@@ -10,7 +10,6 @@ $yellow: #e89e00;
 $orange: #c92f00;
 
 /* Header */
-
 #header {
     padding: 20px;
     position: absolute;
@@ -23,6 +22,11 @@ $orange: #c92f00;
     transform: translate(-50%,-50%);
     letter-spacing: 3px;
     text-shadow: #feffc2 0 0 5px;
+    background: #9ebcd5;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#9c9bbf), color-stop(60%, #9ebcd5));
+    background-image: -webkit-linear-gradient(top, #9c9bbf 0%, #9ebcd5 60%);
+    background-image: -o-linear-gradient(top, #9c9bbf 0%, #9ebcd5 60%);
+    background-image: linear-gradient(to bottom, #9c9bbf 0%, #9ebcd5 60%);
 
     #down-icon {
         display: block;

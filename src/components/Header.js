@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import Link from 'gatsby-link'
-import ParallaxImg from '../assets/images/parallax2.jpg'
 import { Parallax, Background } from 'react-parallax';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
@@ -14,10 +13,9 @@ class Header extends Component {
   render() {
     return (
       <Parallax
-        bgImage={ParallaxImg}
-        bgImageAlt="brooklyn"
-        strength={100}>
-          <div style={{ height: '750px', background: 'rgba(0, 0, 0, .10)'}}> 
+        strength={100}
+        style={{background: '#9ebcd5'}}>
+          <div style={{ height: '750px'}}> 
             <div id='header'>
               <h1>Corinna</h1>
               <p>Computer Science & Cybersecurity</p>
