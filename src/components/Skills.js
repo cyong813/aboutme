@@ -3,10 +3,10 @@ import ProgressBar from './ProgressBar'
 
 const Skills = (props) => {
     return (
-        <div className='container' id='skills'>
+        <div className='container-fluid' id='skills'>
             <div className="row">
-                <div className="col-sm-1 col-md-2"></div>
-                <div className="col-sm-4 col-md-10">
+                <div className="col-sm-3 col-md-3"></div>
+                <div className="col-sm-7 col-md-7">
                     <section id='section'>
                         <h1 id='title'>Skills</h1>
                         <h2 id='subtitle'>Programming Languages</h2>
