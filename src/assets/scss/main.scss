@@ -554,3 +554,64 @@ body {
         font-size: 75%;
     }
 }
+
+/* Project Section */
+
+#projects {
+	.image {
+		border-radius: 0.35em;
+		border: 0;
+		display: inline-block;
+		position: relative;
+
+		&:before {
+            transition: opacity 0.3s ease-in-out;
+			background: rgba(0, 0, 0, 0.5);
+			border-radius: 0.35em;
+			content: '';
+			display: block;
+			height: 100%;
+			left: 0;
+			opacity: 0.5;
+			position: absolute;
+			top: 0;
+			width: 100%;
+		}
+
+		&.thumb {
+			text-align: center;
+
+			&:after {
+				transition: opacity 0.3s ease-in-out;
+				border-radius: 0.35em;
+				border: solid 3px rgba(255,255,255,0.5);
+				color: #fff;
+				content: 'View';
+				display: inline-block;
+				font-size: 0.8em;
+                font-weight: 400;
+				left: 50%;
+				line-height: 2.25em;
+				margin: -1.25em 0 0 -3em;
+				opacity: 0;
+				padding: 0 1.5em;
+				position: absolute;
+				text-align: center;
+				text-decoration: none;
+				top: 50%;
+				white-space: nowrap;
+			}
+
+			&:hover {
+				&:after {
+                    background: rgba(0, 0, 0, 0.5);
+					opacity: 1.0;
+				}
+
+				&:before {
+					opacity: 1.0;
+				}
+            }
+        }
+    }
+}
