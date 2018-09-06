@@ -58,6 +58,10 @@ body {
                 opacity: 0.75;
             }
         }
+
+        a:focus {
+            outline: none;
+        }
     }
 }
 
@@ -91,6 +95,10 @@ body {
 
             a:hover {
                 text-shadow: #feffc2 0 0 5px;
+            }
+
+            a:focus {
+                outline: none;
             }
         }
     }
