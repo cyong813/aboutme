@@ -4,7 +4,7 @@ import { Parallax, Background } from 'react-parallax';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCaretDown } from '@fortawesome/free-solid-svg-icons'
 import Scroll from './Scroll'
-import Particles from 'react-particles-js';
+import {Particles} from 'react-particles-js'
 
 class Header extends Component {
   constructor(props) {
