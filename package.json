@@ -17,6 +17,7 @@
     "gatsby-source-filesystem": "^1.5.39",
     "npm": "^6.4.1",
     "react-helmet": "^5.2.0",
+    "react-images": "^0.5.19",
     "react-particles-js": "^2.4.0-beta.8",
     "react-router-hash-link": "^1.2.0",
     "react-scrollspy": "^3.3.5",
@@ -36,6 +37,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
+    "gh-pages": "^1.2.0",
     "prettier": "^1.13.7"
   },
   "repository": {

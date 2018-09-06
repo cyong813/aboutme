@@ -5,6 +5,7 @@ import MainNavbar from '../components/Navbar'
 import Intro from '../components/Intro'
 import Experiences from '../components/Experiences'
 import Skills from '../components/Skills'
+import Projects from '../components/Projects'
 import Footer from '../components/Footer'
 import '../assets/scss/main.scss'
 
@@ -20,8 +21,12 @@ class IndexPage extends Component {
         <Header />
         <MainNavbar/>
         <Intro />
+        <div className='border' />
         <Experiences />
+        <div className='border' />
         <Skills />
+        <div className='border' />
+        <Projects />
         <Footer />
       </div>
     )

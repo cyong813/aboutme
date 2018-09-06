@@ -3,7 +3,7 @@ module.exports = {
     title: 'Gatsby React Portfolio',
     author: 'Corinna'
   },
-  pathPrefix: '/',
+  pathPrefix: "/",
   plugins: [
     {
       resolve: `gatsby-source-filesystem`,
