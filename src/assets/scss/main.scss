@@ -68,7 +68,7 @@ body {
     padding-top: 75px;
     float: left;
     font-family: $main-font;
-    font-size: 1.25em;
+    font-size: 1.5em;
     letter-spacing: 1px;
     color: #daebea;
 
@@ -506,12 +506,12 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        color: white;
+        color: #daebea;
         overflow: hidden;
 
         a {
             margin: .3em;
-            color: white;
+            color: #daebea;
             transition: color 300ms ease, margin-top 300ms ease;
             transform: translateZ(0);
             
@@ -537,7 +537,7 @@ body {
     }
 
     p {
-        color: rgba(255, 255, 255, 0.753);
+        color: #daebea;
         text-align: center;
         font-size: 75%;
     }

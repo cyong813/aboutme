@@ -68,15 +68,15 @@ class Header extends Component {
                     }
                 }} />
                 <div id='header'>
-                <h1>Corinna</h1>
-                <p>Computer Science & Cybersecurity</p>
-                <div id='down-icon'>
-                    <Scroll type="id" element="intro">
-                    <a href='#'>
-                        <FontAwesomeIcon icon={faCaretDown} size="lg" color="white"/>
-                    </a>
-                    </Scroll>
-                </div>
+                    <h1>Corinna</h1>
+                    <p>Computer Science & Cybersecurity</p>
+                    <div id='down-icon'>
+                        <Scroll type="id" element="intro">
+                        <a href='#'>
+                            <FontAwesomeIcon icon={faCaretDown} size="lg" color='#daebea'/>
+                        </a>
+                        </Scroll>
+                    </div>
                 </div>
             </div>
         )
