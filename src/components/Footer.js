@@ -18,8 +18,8 @@ class Footer extends Component {
                     <a href="https://www.freecodecamp.org/cyong813" id="fcc"><FontAwesomeIcon icon={faFreeCodeCamp} size="2x"/></a>
                     <a href="https://www.yelp.com/user_details?userid=OGsqbjcBG2U1_rxx7Amarw" id="yelp"><FontAwesomeIcon icon={faYelp} size="2x"/></a>
                 </div>
-                <p><i>Thanks for stopping by!</i></p>
-                <p><i><a href="https://www.vecteezy.com">Divider is provided by www.vecteezy.com</a></i></p>
+                <p><i>Thanks for stopping by!</i>
+                <br/><i>Divider is provided by <a href="https://www.vecteezy.com" style={{color: 'white'}}>Vecteezy</a>.</i></p>
             </footer>
         )
     }

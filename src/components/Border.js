@@ -8,10 +8,10 @@ class Border extends Component {
 
     render() {
         return (
-            <div className='container-fluid' id='intro'>
+            <div className='container-fluid'>
                 <div className="row">
-                    <div className="col-sm-2 col-md-2"></div>
-                    <div className="col-sm-10 col-md-10">
+                    <div className="col-sm-3 col-md-3"></div>
+                    <div className="col-sm-7 col-md-7">
                         <div className='waveBorder'>
                             <img src={waveBorder} />
                         </div>

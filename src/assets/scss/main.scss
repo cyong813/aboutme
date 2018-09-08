@@ -134,7 +134,7 @@ hr {
         &:after {
             content: "";
             display: block;
-            border-bottom: 1.5px solid #9fd0d4;
+            border-bottom: 1.5px solid #5dd9ff;
             padding-top: 4px;
         }
     }
@@ -645,8 +645,8 @@ hr {
 /* Border Styling */
 .waveBorder {
     img {
-        width: 95%;
-        filter:drop-shadow(8px 8px 10px white);
+        width: 100%;
+        filter: drop-shadow(4px 4px 5px #5dd9ff);
         margin-bottom: 5rem;
     }
 }
