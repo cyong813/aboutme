@@ -4,8 +4,8 @@ import Pricosha from '../assets/images/pricosha.png'
 import Asteroids from '../assets/images/asteroids.png'
 
 const DEFAULT_IMAGES = [
-    { id: '1', src: 'https://github.com/cyong813/PriCoSha', thumbnail: Pricosha, caption: 'Photo 1', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '2', src: 'https://github.com/cyong813/Asteroid-Field-pygame-proj', thumbnail: Asteroids, caption: 'Photo 2', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
+    { id: '1', src: 'https://github.com/cyong813/PriCoSha', thumbnail: Pricosha, caption: 'PriCoSha', description: 'Private Content Sharing web application built with MySQL & Flask.'},
+    { id: '2', src: 'https://github.com/cyong813/Asteroid-Field-pygame-proj', thumbnail: Asteroids, caption: 'Asteroid Field', description: 'Minigame built with Python Pygame library.'},
 ];
 
 class Projects extends Component {

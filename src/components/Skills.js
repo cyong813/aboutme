@@ -24,6 +24,7 @@ const Skills = (props) => {
                         <ul id='list'>
                             <li>Selenium</li>
                             <li>Flask</li>
+                            <li>MySQL</li>
                         </ul>
 
                         <h2 id='subtitle'>In progress...</h2>
@@ -34,11 +35,12 @@ const Skills = (props) => {
                             <li>Security (penetration testing)</li>
                         </ul>
 
-                        <h2 id='subtitle'>Hobbies</h2>
+                        <h2 id='subtitle'>Hobbies & Interests</h2>
                         <ul id='list'>
                             <li>Guitar</li>
-                            <li>Piano (self-teaching in progress!)</li>
-                            <li>Coffee-making (also self-teaching)</li>
+                            <li>Piano</li>
+                            <li>Coffee-making</li>
+                            <li>Lots of eating</li>
                         </ul>
 
                     </section>
