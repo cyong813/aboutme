@@ -24,6 +24,8 @@
     "react-stickydiv": "^3.4.20",
     "react-typed": "^1.0.9",
     "react-waypoint": "^8.0.3",
+    "react.waves": "^1.0.2",
+    "s": "^0.1.1",
     "smoothscroll-polyfill": "^0.4.3"
   },
   "keywords": [

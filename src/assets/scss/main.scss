@@ -104,15 +104,19 @@ body {
     }
 }
 
-.border {
-    display: inline-block;
-    border-bottom: 1.5px solid white;
-}
+hr {
+    border: 0;
+    height: 4px;
+    width: 60%;
+    margin-top: 4rem !important;
+    margin-bottom: 4rem !important;
+    background-color: #dddddd;
+ }
 
 /* Section Styling */
 
 #section {
-    margin: 0px 50px 50px 0;
+    margin: 0px 50px 0 0;
     font-family: $main-font;
     color: #daebea;
     font-size: 1.1em;
@@ -514,6 +518,8 @@ body {
 }
 
 #contact {
+    margin-top: 4rem;
+
     .icons {
         display: flex;
         align-items: center;

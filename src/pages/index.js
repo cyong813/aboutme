@@ -14,18 +14,17 @@ class IndexPage extends Component {
     super(props)
   }
 
-
   render() {
     return (
       <div>
         <Header />
         <MainNavbar/>
         <Intro />
-        <div className='border' />
+        <hr />
         <Experiences />
-        <div className='border' />
+        <hr />
         <Skills />
-        <div className='border' />
+        <hr />
         <Projects />
         <Footer />
       </div>
