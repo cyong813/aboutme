@@ -19,6 +19,7 @@ class Footer extends Component {
                     <a href="https://www.yelp.com/user_details?userid=OGsqbjcBG2U1_rxx7Amarw" id="yelp"><FontAwesomeIcon icon={faYelp} size="2x"/></a>
                 </div>
                 <p><i>Thanks for stopping by!</i></p>
+                <p><i><a href="https://www.vecteezy.com">Divider is provided by www.vecteezy.com</a></i></p>
             </footer>
         )
     }

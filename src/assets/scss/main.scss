@@ -641,3 +641,12 @@ hr {
         }
     }
 }
+
+/* Border Styling */
+.waveBorder {
+    img {
+        width: 95%;
+        filter:drop-shadow(8px 8px 10px white);
+        margin-bottom: 5rem;
+    }
+}
