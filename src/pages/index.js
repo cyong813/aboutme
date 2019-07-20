@@ -2,12 +2,9 @@ import React, { Component } from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/Header'
 import MainNavbar from '../components/Navbar'
-import Intro from '../components/Intro'
-import Experiences from '../components/Experiences'
-import Skills from '../components/Skills'
+import About from '../components/About'
 import Projects from '../components/Projects'
 import Footer from '../components/Footer'
-import Border from '../components/Border'
 import '../assets/scss/main.scss'
 
 class IndexPage extends Component {
@@ -20,12 +17,7 @@ class IndexPage extends Component {
       <div>
         <Header />
         <MainNavbar/>
-        <Intro />
-        <Border />
-        <Experiences />
-        <Border />
-        <Skills />
-        <Border />
+        <About />
         <Projects />
         <Footer />
       </div>

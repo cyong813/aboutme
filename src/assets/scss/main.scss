@@ -28,7 +28,7 @@ body {
     text-align: center;
     font-family: $head-font;
     font-size: 2em;
-    color: #daebea;
+    color: #f5fffe;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -37,7 +37,7 @@ body {
 
     #down-icon {
         display: block;
-        opacity: 0.75;
+        opacity: 0.90;
         -webkit-animation: fadeInFromNone 3s ease-out;
         -moz-animation: fadeInFromNone 3s ease-out;
         animation: fadeInFromNone 3s ease-out;
@@ -74,17 +74,15 @@ body {
     font-family: $main-font;
     font-size: 1.5em;
     letter-spacing: 1px;
-    color: #daebea;
 
     ul {
         margin: 0 auto;
         list-style: none;
 
-        li{
-            
+        li {         
             a {
                 display: inline-block;
-                color: #daebea;
+                color: #f0faf9;
                 text-decoration: none;
             }
 
@@ -116,9 +114,9 @@ hr {
 /* Section Styling */
 
 #section {
-    margin: 0px 50px 0 0;
+    margin: 0px 50px 100px 0;
     font-family: $main-font;
-    color: #daebea;
+    color: #f0faf9;
     font-size: 1.1em;
 
     #title {
@@ -128,7 +126,7 @@ hr {
         display: inline-block;
         letter-spacing: .05em;
         padding-bottom: 20px;
-        color: #daebea;
+        color: #ffffff;
         text-shadow: #b7d7e8 0 0 5px;
 
         &:after {
@@ -194,317 +192,6 @@ hr {
     }
 }
 
-/* Progress Styling */
-@keyframes pulse { 
-    0% {
-      background-position: -50% center, right center, left center;
-    }   
-    100% {
-      background-position: 150% center, right center, left center;
-    }    
-}
-
-@mixin innerColor( $color ) {
-  
-    background-color: transparentize( $color , 0.05 );
-    background-image:
-      linear-gradient(
-        90deg, 
-        transparentize( lighten( $color, 5% ), 1 ) 10%,
-        transparentize( lighten( $color, 10% ), 0.2 ) 30%,
-        transparentize( lighten( $color, 15% ), 0 ) 70%,
-        transparentize( lighten( $color, 10% ), 0.2 ) 80%,
-        transparentize( lighten( $color, 5% ), 1 ) 90%
-      ),
-      linear-gradient( 
-        to right,
-        transparentize( lighten( $color, 15% ), 1 ) 0%,
-        transparentize( lighten( $color, 15% ), 0 ) 100%
-      ),
-      linear-gradient( 
-        to left,
-        transparentize( lighten( $color, 15% ), 1 ) 0%,
-        transparentize( lighten( $color, 15% ), 0 ) 100%
-      );
-    
-    border-color: lighten( $color, 20% );
-    
-    box-shadow: 
-      0 0 0.6em lighten( $color, 10% ) inset,
-      0 0 0.4em lighten( $color, 5% ) inset,
-      0 0 0.5em transparentize( $color, 0.5),
-      0 0 0.1em transparentize( lighten( $color, 50% ), 0.5);
-    
-  }
-
-.progressBar { 
-    font-size: 1.2em;
-    height: 25px;
-    background: rgba(255,255,255,0.05);
-    border-radius: 2px;
-    border: 1px solid rgba(255,255,255,0.2);
-        
-    &--active .progress__bar {
-        opacity: 1;
-    }    
-
-    &__text {
-        width: 20em;
-        padding: 0 0.9em; 
-        position: absolute;
-        
-        em {          
-          font-style: normal;         
-        }
-    }
-
-    &__bar__pro {
-        color: white;
-        font-size: 12px;
-        font-weight: normal;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.6);
-        
-        display: block;
-        position: relative;
-        top: -1px;
-        left: -1px;
-
-        width: 75%;
-        height: 100%;
-        opacity: 1;
-        
-        border: 1px solid;
-        border-radius: 2px 0 0 2px;
-        
-        background-size: 100px 30px, 130px 30px, 130px 30px;
-        background-position: -20% center, right center, left center;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        
-        transition: 
-          opacity 0.2s ease,
-          width 0.8s ease-out,
-          background-color 1s ease,
-          border-color 0.3s ease,
-          box-shadow 1s ease;
-        
-        animation: pulse 2s ease-out infinite;
-        
-        @include innerColor($red);
-        
-        &:before,
-        &:after {
-          content: "";
-          position: absolute;
-          right: -1px;
-          top: -10px;
-          width: 1px;
-          height: 40px;
-        }
-        
-        &:before {
-          width: 7px;
-          right: -4px;
-          
-          background: 
-            radial-gradient(
-              ellipse at center,
-              rgba(255,255,255,0.4) 0%,
-              rgba(255,255,255,0) 75%
-            );
-          
-        }
-        
-        &:after {
-          background: 
-            linear-gradient(
-              to bottom, 
-              rgba(255,255,255,0) 0%,
-              rgba(255,255,255,0.3) 25%,
-              rgba(255,255,255,0.3) 75%,
-              rgba(255,255,255,0) 100%
-            );      
-        }
-
-        &--complete {
-            .progress__bar {
-              animation: none;
-              border-radius: 2px;
-              
-              &:after,
-              &:before {
-                opacity: 0;
-              }
-            }
-          }
-        
-    }
-
-    &__bar__medium {
-        color: white;
-        font-size: 12px;
-        font-weight: normal;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.6);
-        
-        display: block;
-        position: relative;
-        top: -1px;
-        left: -1px;
-
-        width: 50%;
-        height: 100%;
-        opacity: 1;
-        
-        border: 1px solid;
-        border-radius: 2px 0 0 2px;
-        
-        background-size: 100px 30px, 130px 30px, 130px 30px;
-        background-position: -20% center, right center, left center;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        
-        transition: 
-          opacity 0.2s ease,
-          width 0.8s ease-out,
-          background-color 1s ease,
-          border-color 0.3s ease,
-          box-shadow 1s ease;
-        
-        animation: pulse 2s ease-out infinite;
-        
-        @include innerColor($orange);
-        
-        &:before,
-        &:after {
-          content: "";
-          position: absolute;
-          right: -1px;
-          top: -10px;
-          width: 1px;
-          height: 40px;
-        }
-        
-        &:before {
-          width: 7px;
-          right: -4px;
-          
-          background: 
-            radial-gradient(
-              ellipse at center,
-              rgba(255,255,255,0.4) 0%,
-              rgba(255,255,255,0) 75%
-            );
-          
-        }
-        
-        &:after {
-          background: 
-            linear-gradient(
-              to bottom, 
-              rgba(255,255,255,0) 0%,
-              rgba(255,255,255,0.3) 25%,
-              rgba(255,255,255,0.3) 75%,
-              rgba(255,255,255,0) 100%
-            );      
-        }
-
-        &--complete {
-            .progress__bar {
-              animation: none;
-              border-radius: 2px;
-              
-              &:after,
-              &:before {
-                opacity: 0;
-              }
-            }
-          }
-        
-    }
-
-    &__bar__beginner {
-        color: white;
-        font-size: 12px;
-        font-weight: normal;
-        text-shadow: 0 1px 1px rgba(0,0,0,0.6);
-        
-        display: block;
-        position: relative;
-        top: -1px;
-        left: -1px;
-
-        width: 25%;
-        height: 100%;
-        opacity: 1;
-        
-        border: 1px solid;
-        border-radius: 2px 0 0 2px;
-        
-        background-size: 100px 30px, 130px 30px, 130px 30px;
-        background-position: -20% center, right center, left center;
-        background-repeat: no-repeat, no-repeat, no-repeat;
-        
-        transition: 
-          opacity 0.2s ease,
-          width 0.8s ease-out,
-          background-color 1s ease,
-          border-color 0.3s ease,
-          box-shadow 1s ease;
-        
-        animation: pulse 2s ease-out infinite;
-        
-        @include innerColor($yellow);
-        
-        &:before,
-        &:after {
-          content: "";
-          position: absolute;
-          right: -1px;
-          top: -10px;
-          width: 1px;
-          height: 40px;
-        }
-        
-        &:before {
-          width: 7px;
-          right: -4px;
-          
-          background: 
-            radial-gradient(
-              ellipse at center,
-              rgba(255,255,255,0.4) 0%,
-              rgba(255,255,255,0) 75%
-            );
-          
-        }
-        
-        &:after {
-          background: 
-            linear-gradient(
-              to bottom, 
-              rgba(255,255,255,0) 0%,
-              rgba(255,255,255,0.3) 25%,
-              rgba(255,255,255,0.3) 75%,
-              rgba(255,255,255,0) 100%
-            );      
-        }
-
-        &--complete {
-            .progress__bar {
-              animation: none;
-              border-radius: 2px;
-              
-              &:after,
-              &:before {
-                opacity: 0;
-              }
-            }
-          }
-        
-    }
-}
-
-#progressContainer {
-    margin-left: 20px;
-}
 
 /* Footer Styling */
 
@@ -524,12 +211,12 @@ hr {
         display: flex;
         align-items: center;
         justify-content: space-around;
-        color: #daebea;
+        color: #f0faf9;
         overflow: hidden;
 
         a {
             margin: .3em;
-            color: #daebea;
+            color: #f0faf9;
             transition: color 300ms ease, margin-top 300ms ease;
             transform: translateZ(0);
             
@@ -565,9 +252,10 @@ hr {
     }
 
     p {
-        color: #daebea;
+        color: #f0faf9;
         text-align: center;
-        font-size: 75%;
+        font-size: 90%;
+        margin-bottom: 50px;
     }
 }
 
@@ -639,14 +327,5 @@ hr {
 				}
             }
         }
-    }
-}
-
-/* Border Styling */
-.waveBorder {
-    img {
-        width: 100%;
-        filter: drop-shadow(4px 4px 5px #5dd9ff);
-        margin-bottom: 5rem;
     }
 }

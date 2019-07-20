@@ -19,7 +19,7 @@ class Gallery extends Component {
                             <a
                                 className="image fit thumb"
                                 href={obj.src}
-                                onClick={(e) => this.openLightbox(i, e)} >
+                                target='_blank'>
                                 <img 
                                     src={obj.thumbnail} />
                             </a>
