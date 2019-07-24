@@ -27,7 +27,7 @@ const MainNavbar = (props) => (
                     <a href='https://drive.google.com/file/d/14YEYGQ6GsqUPOCqj0CB7tiUjUM_rApBi/view?usp=sharing' target='_blank'>Resume</a>
                 </li>
                 <li>
-                    <a href='#'>Blog</a>
+                    <a href='https://sad-elion-202e0c.netlify.com' target='_blank'>Blog</a>
                 </li>
             </Scrollspy>
     </nav>
