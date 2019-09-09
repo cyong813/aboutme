@@ -24,7 +24,7 @@ const MainNavbar = (props) => (
                 </li>
                 <br/>   
                 <li>
-                    <a href='https://drive.google.com/file/d/14YEYGQ6GsqUPOCqj0CB7tiUjUM_rApBi/view?usp=sharing' target='_blank'>Resume</a>
+                    <a href='https://drive.google.com/open?id=1d1GBkMkHRT2mjCY_wyDcjvZfVFg28EC3' target='_blank'>Resume</a>
                 </li>
                 <li>
                     <a href='https://sad-elion-202e0c.netlify.com' target='_blank'>Blog</a>

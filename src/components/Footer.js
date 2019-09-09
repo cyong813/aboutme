@@ -18,6 +18,15 @@ class Footer extends Component {
                     <a href="https://www.freecodecamp.org/cyong813" id="fcc"><FontAwesomeIcon icon={faFreeCodeCamp} size="2x"/></a>
                 </div>
                 <p><i>Thanks for stopping by!</i></p>
+                <p>
+                    <i>
+                        Coffee cup icon made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                    </i>
+                    <br/>
+                    <i>
+                        Pencil & paper icon made by <a href="https://www.flaticon.com/authors/srip" title="srip">srip</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+                    </i>
+                </p>
             </footer>
         )
     }

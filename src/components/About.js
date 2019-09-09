@@ -18,7 +18,9 @@ class About extends Component {
                                 playing flash games and designing basic websites since I was younger. </p>
                                 <p>I've graduated New York University
                                 Tandon School of Engineering with a bachelor's degree in Computer Science and a minor in cyber security as of May 2019.</p>
-                                <p>Feel free to check out my <a href='https://drive.google.com/file/d/1S0r9wr0qYW6ainmYNjPBTzEztkrfd5XO/view?usp=sharing' target='_blank'><b>resume</b></a> and <a href='https://sad-elion-202e0c.netlify.com' target='_blank'><b>blog</b></a>.</p>
+                                <p>Feel free to check out my <a href='https://drive.google.com/open?id=1d1GBkMkHRT2mjCY_wyDcjvZfVFg28EC3' target='_blank'>
+                                    <b>resume</b></a> and <a href='https://sad-elion-202e0c.netlify.com' target='_blank'><b>blog</b></a>.
+                                </p>
                         </section>
                     </div>
                     <div className="col-md-2 col-sm-2 avatarCol">
