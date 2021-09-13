@@ -20,9 +20,6 @@ import NavHeader from '../components/NavHeader'
 import NavContent from '../components/NavContent'
 import MainContent from '../components/MainContent'
 import Footer from '../components/Footer'
-import {Icon} from "@material-ui/core";
-import NightsStay from "@material-ui/icons/NightsStay";
-import IconButton from "@material-ui/core/IconButton";
 
 const Header = getHeader(styled)
 const DrawerSidebar = getDrawerSidebar(styled)
