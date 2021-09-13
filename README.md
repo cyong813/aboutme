@@ -1,10 +1,5 @@
-<p align="center">
-  <a href="https://next.gatsbyjs.org">
-    <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Portfolio using GatsbyJS
-</h1>
+# About Me (V2)
 
-Used many references from Gatsby starters and open-source ideas on CodePen. Much appreciated.
+- Convert to use `mui-treasury` for easy pull for mobile + responsive design
+- Removed a lot of excess packages and keepin' things real simple
+- Dark theme!
