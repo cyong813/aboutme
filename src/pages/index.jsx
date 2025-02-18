@@ -67,17 +67,17 @@ const IndexPage = () => {
                     <CssBaseline />
                     <Header>
                         <Toolbar>
-                            <SidebarTrigger sidebarId='primarySidebar' />
+                            {/*<SidebarTrigger sidebarId='primarySidebar' />*/}
                             <HeaderContent screen={screen} applyDark={setDark} />
                         </Toolbar>
                     </Header>
-                    <DrawerSidebar sidebarId='primarySidebar'>
-                        <SidebarContent>
-                            <NavHeader collapsed={sidebar.primarySidebar.collapsed} />
-                            <NavContent />
-                        </SidebarContent>
-                        <CollapseBtn />
-                    </DrawerSidebar>
+                    {/*<DrawerSidebar sidebarId='primarySidebar'>*/}
+                    {/*    <SidebarContent>*/}
+                    {/*        <NavHeader collapsed={sidebar.primarySidebar.collapsed} />*/}
+                    {/*        <NavContent />*/}
+                    {/*    </SidebarContent>*/}
+                    {/*    <CollapseBtn />*/}
+                    {/*</DrawerSidebar>*/}
                     <Content>
                         <InsetContainer>
                             <MainContent />
