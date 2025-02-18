@@ -16,7 +16,7 @@ const styles = ({ breakpoints, transitions }) => ({
     },
   },
   about: {
-    paddingTop: 8
+    paddingTop: 18
   },
   container: {
     paddingTop: 16,
