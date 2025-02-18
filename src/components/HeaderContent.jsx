@@ -59,14 +59,15 @@ const HeaderContent = ({ classes, screen, applyDark }) => (
             {link}
           </Button>
         ))}
-        <IconButton onClick={() => applyDark(v => !v)}>
-          <Icon><NightsStay /></Icon>
-        </IconButton>
+        {/*<IconButton onClick={() => applyDark(v => !v)}>*/}
+        {/*  <Icon><NightsStay /></Icon>*/}
+        {/*</IconButton>*/}
       </>
     ) : (
-      <IconButton onClick={() => applyDark(v => !v)}>
-        <Icon><NightsStay /></Icon>
-      </IconButton>
+      <></>
+      // <IconButton onClick={() => applyDark(v => !v)}>
+      //   <Icon><NightsStay /></Icon>
+      // </IconButton>
     )}
   </>
 );
